@@ -20,7 +20,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 | Label | Kiểu | Số điểm | Tên điểm đúng bảng của lab? | Đúng thứ tự? | Số cạnh |
 |---|---|---:|---|---|---:|
 | `person` |Skeleton |17 |Có | Có |19
-| `face` | Skeleton| |13 |Có |Có|13
+| `face` | Skeleton |13 |Có |Có|13|
 
 Mẫu `person` dựng theo người quay mặt về camera (các điểm `left_*` nằm bên phải khung mẫu)? Có / Không
 Có
