@@ -1,0 +1,43 @@
+{
+ "mssv": "2A202603252",
+ "ten": "PhanDinhGiap",
+ "pool_version": "d04-k5-v2",
+ "cvat_user": "giappd",
+ "project": "d04-keypoint",
+ "persons": [
+  "000000043968.jpg",
+  "000000175703.jpg",
+  "000000314154.jpg",
+  "000000365099.jpg",
+  "000000399983.jpg",
+  "000000193879.jpg",
+  "000000324953.jpg",
+  "000000360811.jpg",
+  "000000054909.jpg",
+  "000000431988.jpg",
+  "000000106051.jpg",
+  "000000522889.jpg"
+ ],
+ "faces": [
+  "face_147624.jpg",
+  "face_232598.jpg",
+  "face_496353.jpg",
+  "face_415073.jpg",
+  "face_416730.jpg",
+  "face_249336.jpg",
+  "face_301643.jpg",
+  "face_333134.jpg"
+ ],
+ "tasks": {
+  "persons": {
+   "task_id": 4,
+   "job_id": 4,
+   "task_name": "persons-PhanDinhGiap"
+  },
+  "faces": {
+   "task_id": 5,
+   "job_id": 5,
+   "task_name": "faces-PhanDinhGiap"
+  }
+ }
+}

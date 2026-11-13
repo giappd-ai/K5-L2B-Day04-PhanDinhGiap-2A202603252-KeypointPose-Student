@@ -6,10 +6,10 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repository:
+- Họ tên:Phan Đình Giáp
+- MSSV:2A202603252
+- Email:giappdhe140952@gmail.com
+- Link repository:https://github.com/giappd-ai/K5-L2B-Day04-PhanDinhGiap-2A202603252-KeypointPose-Student.git
 - Phiên bản CVAT (Help → About):
 - Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có / không
@@ -20,10 +20,11 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 | Label | Kiểu | Số điểm | Tên điểm đúng bảng của lab? | Đúng thứ tự? | Số cạnh |
 |---|---|---:|---|---|---:|
-| `person` | | | | | |
+| `person` |Skeleton |17 |Có | | |
 | `face` | | | | | |
 
 Mẫu `person` dựng theo người quay mặt về camera (các điểm `left_*` nằm bên phải khung mẫu)? Có / Không
+Có
 
 Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bản CVAT này (một câu):
 
