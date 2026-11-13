@@ -144,19 +144,23 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 
 1. Lỗi bạn mắc nhiều nhất hôm nay, và cách bạn sẽ tránh ở dự án thật:
 
-   ...
+   Lỗi bạn mắc nhiều nhất hôm nay, và cách bạn sẽ tránh ở dự án thật:
+
+Lỗi mắc nhiều nhất là nhầm lẫn trái/phải (lr_swap) khi nhân vật trong ảnh quay lưng hoặc nghiêng người. Ở dự án thật, cần chủ động xác định hướng nhìn của nhân vật trước khi bắt đầu gán nhãn điểm.
 
 2. Một quy tắc bạn đề xuất thêm vào guideline (kèm ảnh ví dụ nếu có):
 
-   ...
+   Một quy tắc bạn đề xuất thêm vào guideline (kèm ảnh ví dụ nếu có):
+
+Bổ sung các hình ảnh minh họa chi tiết riêng cho các góc máy thể thao mạo hiểm có hiện tượng chân tay bắt chéo phức tạp.
 
 3. Nhãn của bạn đi vào model ở đâu? Chọn một lỗi bạn đã sửa và nói nó sẽ làm model học sai thế nào (heatmap, trọng số trong loss, hay bước lật ảnh):
 
-   ...
+   Lỗi đặt nhầm cờ visibility (v = 2 thay vì v = 1 cho điểm bị che) sẽ khiến hàm loss phạt lệch chuẩn hoặc làm suy giảm độ chính xác dự đoán của heatmap tại các vùng khớp bị khuất.
 
 ## 8. Khó khăn và lỗi kỹ thuật
 
-...
+0
 
 ## Bonus (nếu làm)
 
