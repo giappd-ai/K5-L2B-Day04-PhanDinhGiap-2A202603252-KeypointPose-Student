@@ -70,7 +70,7 @@ Mã lỗi dùng đúng một trong: `lr_swap`, `vis_flag`, `position`, `missing`
 |000000193879.jpg | Person 2|`right_ankle` |`lr_swap` |Nhầm cổ chân trái/phải do góc nhìn. | Đã sửa|
 |000000522889.jpg | Person 3|`right_ankle` | `lr_swap`| Cặp cổ chân nằm ngược phía|Đã sửa |
 |000000314154.jpg|Person 1 | `left_shoulder`| `ok`| Vị trí chuẩn xác, cờ đúng.| Không cần|
-|face_147624.jpg | Face 1 | |mouth_left` |`ok` | Vị trí chính xác, cờ đúng.| Không cần|
+|face_147624.jpg | Face 1  |mouth_left` |`ok` | Vị trí chính xác, cờ đúng.| Không cần|
 |face_232598.jpg|Face 1 |`lip_upper`| `ok`| Vị trí chính xác, cờ đúng.|  Không cần|
 |face_249336.jpg|Face 1 |`left_eye_upper` | `ok`|Vị trí chính xác, cờ đúng. | Không cần |
 
